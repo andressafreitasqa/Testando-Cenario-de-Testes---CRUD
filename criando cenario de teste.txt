@@ -1,0 +1,37 @@
+Exercício – AULA 05 - Mentoria Test Like a Girl
+
+•	que testes devem ser feitos para garantir esses requisitos?
+
+- Testes funcionais: usabilidade, unidade, sistema e estresse. 
+- Testes não funcionais: teste de desempenho, teste de acessibilidade.
+
+•	que atributos de qualidade são importantes?
+
+- Funcionalidade
+- Usabilidade
+- Eficiência
+- Manutenibilidade
+
+
+•	listar cenários que devem ser testados (Ex: Excluir uma tarefa que foi previamente criada)
+
+Como usuário, ao cadastrar.
+- CT1: Criação de título sem respeitar o requisito mínimo de 5 caracteres.
+- CT2: Deixar o titulo em branco no cadastro.
+- CT3: Usar números ou caracteres especiais no título.
+-CT4: Deixar o campo descrição em branco ou utilizar caracteres especiais.
+-CT5: Usar data menor que data atual.
+
+Como usuário, ao editar.
+CT1: Tentar editar o título
+CT2: Tentar alterar tarefas do dia.
+
+Como usuário, ao listar:
+CT1: Se houver tarefa, exigir em lista de ordem de cadastro.
+
+Como usuário, ao excluir:
+CT1: Tentar excluir uma tarefa que já ocorreu.
+CT2: Tentar desfazer ação de exclusão.
+
+
+

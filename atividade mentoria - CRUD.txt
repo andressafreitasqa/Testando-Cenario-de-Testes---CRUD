@@ -1,0 +1,64 @@
+Objetivo: Nesta semana a ideia é vocês exercitarem um pouco a visão macro de estratégia de testes, antes de a gente entrar em detalhes dos tipos de teste
+
+
+Épico: CRUD de Tarefas
+Eu como usuário de agenda
+Quero administrar minhas tarefas
+Para ter controle das mesmas
+
+Administrar significa: Cadastrar / Editar / Listar / Excluir
+
+1 - CADASTRAR:
+-	título, data e descrição da tarefa;
+-	mínimo de 5 caracteres para o título;
+-	título não pode ser em branco;
+-	título aceita apenas letras;
+-	descrição pode ser em branco;
+-	descrição não aceita caracteres especiais;
+-	a data só pode ser maior ou igual a data atual;
+
+2 - EDITAR:
+-	não se pode editar o título;
+-	ao confirmar as alterações, exibir uma mensagem pedindo confirmação;
+-	só pode editar tarefas futuras (D+1)
+
+3 - LISTAR:
+-	se não houver nenhuma tarefa, exibir a opção de cadastrar uma nova
+-	exibir o título da tarefa e a data apenas
+
+4 - EXCLUIR:
+-	não se pode excluir uma tarefa que já aconteceu (D-1)
+-	ao realizar uma exclusão, exibir uma mensagem pedindo confirmação;
+
+
+Requisitos não-funcionais:
+- disponível na web e em apps nativos;
+- disponibilidade 24/7;
+- funcionalidade de listagem deve suportar no mínimo 80 mil usuários simultâneos;
+
+ 
+
+Exercitar:
+?	que testes devem ser feitos para garantir esses requisitos?
+
+
+?	que atributos de qualidade são importantes?
+
+
+?	listar cenários que devem ser testados (Ex: Excluir uma tarefa que foi previamente criada)
+
+?	listar dúvidas ou situações que vocês não entenderam
+
+Algumas referências:
+-	Desenvolvendo uma Estratégia de Testes https://www.youtube.com/watch?v=CtvChJbDGOM&t=3960s
+-	Triângulos de Teste, Não Mais https://www.youtube.com/watch?v=QSZYrVLcfto&t=998s
+-	Como criar a tão falada Cultura de Qualidade https://youtu.be/jFBkL2Sq7XQ
+-	Automatizar testes não é suficiente https://www.youtube.com/watch?v=0qtRQYS4V5A (a partir de 2:16:53 até 2:55:43)
+-	Para que serve a pirâmide de testes? https://www.youtube.com/watch?v=Uo_Xgarfxgs
+-	Características de Qualidade ISO 25010
+-	Características de Qualidade ISO 25010 - Como saber se um software tem qualidade? Entenda!
+-	Norma ISO/IEC 25010
+https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+-	Gherkin
+https://cucumber.io/docs/gherkin/reference/
+https://www.youtube.com/watch?v=XYhaFnjvi3U
